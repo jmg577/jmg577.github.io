@@ -22,7 +22,7 @@ height: 100%;
   grid-template-columns: 100%;
   margin: 0 auto;
   height: 100%;
-  background-color: white;
+  background-color: #EEEEEE;
 }
 
 .container .myPhoto img{
@@ -164,4 +164,10 @@ footer img{
     }
 }
 
+@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0)
+{ @media {
+    html{
+		background-color: #EEEEEE;
+	}
+}}
 
