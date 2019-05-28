@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+<html>
+    
+    
+<link href="theme.css" rel="stylesheet" type="text/css">   
+    
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Jahmarry M. Grant</title>
+</head>
+
+<header>
+    <div class = container>
+        <h1>
+            <a href="index.htm"> Hey, I'm Jahmarry </a> 
+        </h1>
+        <hr>
+    </div>
+    
+</header>
+
+    
+<body>
+    <div class = container>
+        <div class = grid>
+            
+            <div class = myPhoto>
+                <img src="img/Rutgers.png" alt="Rutgers Logo">
+            </div>
+            
+            
+            <div class = aboutMe>
+                <p>
+                    Find me on GitHub <a href="https://github.com/jmg577">@jmg577</a>.
+                    <br>
+                    To reach me, email me  <a href="mailto:grantjahmarry@gmail.com?Subject=Hello">@jmg577@scarletmail.rutgers.edu</a>.
+                     <br>
+                     <br>
+                    <br>
+                   
+                    
+                   
+                    <a href="aboutMe.htm" >About Me</a>.
+                    
+                </p>
+                 
+            </div>
+            
+        </div>
+    </div>
+    
+
+</body>
+    
+    
+<footer>
+    <div class = container>
+        <a href="https://www.linkedin.com/in/jahmarry-grant-9b70b4173/"><img src="img/linkedin.ico" alt="LinkedIn"></a>
+        
+        <a href="https://github.com/jmg577"><img src="img/github.ico" alt="GitHub"></a>
+        
+        <a href="mailto:grantjahmarry@gmail.com?Subject=Hello"><img src="img/mail.ico" alt="Mail"></a>
+    </div>
+</footer>
+    
+    
+    
+<script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+    
+<script>
+    $(function(){
+    
+    $(".container").hide()
+        .slideDown(1500);
+        
+    $(".myPhoto").hide()
+        .delay(1000)
+        .fadeIn();
+    
+    $(".aboutMe").hide()
+        .delay(1500)
+        .toggle("right");
+        
+    $("footer img")
+        .hide()
+	.delay(1500)
+	.fadeIn();
+	
+
+        
+});
+    
+    
+    </script>
+
+
+
+
+
+</html>
