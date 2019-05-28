@@ -112,6 +112,10 @@ footer img{
   html{
 	background-color: lightgrey;
 	}
+
+ footer{
+	background-color; lightgrey;
+	}
 }
 
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
