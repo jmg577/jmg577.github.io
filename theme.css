@@ -116,10 +116,6 @@ footer img{
  footer{
 	background-color: lightgrey;
 	}
-
-.container .myPhoto img{
-        display: none;
-      }
 }
 
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
