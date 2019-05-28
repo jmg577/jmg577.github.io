@@ -3,8 +3,8 @@
 }
 
 html{
-background-color:#EEEEEE;
-margin:0;
+background-color:#CC0033;
+margin:0 auto;
 height: 100%;
 }
 
@@ -14,11 +14,15 @@ height: 100%;
   max-width: 100%;
   margin: 0 auto;
   position: relative;
+  
 }
 
 .grid {
   display: grid;
   grid-template-columns: 100%;
+  margin: 0 auto;
+  height: 100%;
+  background-color: white;
 }
 
 .container .myPhoto img{
@@ -60,15 +64,19 @@ body .container .grid{
     padding-bottom: 7.5%;
     font-family:  Courier New, sans-serif;
     font-size: 120%;
+    height: 100%;
+    margin: 0 auto;
 }
 
 body .container .grid p{
     padding-left: 20px;
+    height: 100%;
+    margin: 0 auto;	
 }
 
 body .container .grid p a{
     text-decoration: none;
-    color: red;
+    color: black;
 }
 
 body .container .grid p a:hover{
@@ -87,6 +95,9 @@ footer{
     text-align: center;
     padding-top: 4.5%;
     padding-bottom: 1.5%;
+    margin:0;
+    height: 100%;
+    width: 100%;
     
 }
 
