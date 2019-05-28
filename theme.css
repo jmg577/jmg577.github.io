@@ -116,6 +116,12 @@ footer img{
  footer{
 	background-color: lightgrey;
 	}
+footer img{
+    	height:5%;
+    	width: 5%;
+    	padding: 3px;
+}
+
 }
 
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
