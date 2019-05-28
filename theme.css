@@ -168,9 +168,10 @@ footer img{
 and(-webkit-min-device-pixel-ratio:0) { @media
 {
     .safari_only { 
-
+	html{
        
         background-color: lightgrey; 
+	}
 
     }
 }}
