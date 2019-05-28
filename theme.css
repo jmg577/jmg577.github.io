@@ -164,10 +164,13 @@ footer img{
     }
 }
 
-@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0)
-{ @media {
-    html{
-		background-color: #EEEEEE;
-	}
-}}
+@media screen and (min-color-index:0) 
+and(-webkit-min-device-pixel-ratio:0) { @media
+{
+    .safari_only { 
 
+       
+        background-color: lightgrey; 
+
+    }
+}}
