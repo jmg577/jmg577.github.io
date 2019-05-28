@@ -22,7 +22,7 @@ height: 100%;
   grid-template-columns: 100%;
   margin: 0 auto;
   height: 100%;
-  background-color: #EEEEEE;
+  background-color: lightgrey;
 }
 
 .container .myPhoto img{
