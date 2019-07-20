@@ -1,101 +1,91 @@
-﻿<!DOCTYPE html>
-<html>
-    
-    
-<link href="theme.css" rel="stylesheet" type="text/css">   
-    
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Jahmarry M. Grant</title>
-</head>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<header>
-    <div class = container>
-        <h1>
-            <a href="index.htm"> Hey, I'm Jahmarry </a> 
-        </h1>
-        <hr>
-    </div>
-    
-</header>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"/>
+     
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"/>
+      
+<link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet">
+      
+<link href="theme.css" rel="stylesheet" type="text/css">
+ 
 
-    
-<body>
-    <div class = container>
-        <div class = grid>
-            
-            <div class = myPhoto>
-                <img src="img/Rutgers.png" alt="Rutgers Logo">
+    <title>Jahmarry Grant</title>
+  </head>
+  <body>
+      
+      <!-- Header -->
+      <header>
+          <div class= "container">
+              <a id="hey" href= "index.htm"><h1>Jahmarry Grant<br><small>Web Developer</small></h1></a>
+              </div>
+      </header>
+      
+      <!-- Jumbotron -->
+      <div class="jumbotron" id="About">
+    <div class="container">
+        <div class="row">
+             <div class="col-lg-6 mt-4" id= "aboutleft">
+                <img id= "aboutmeimg" src="https://www.logolynx.com/images/logolynx/61/6135273a0df36b218eec62584682e18b.png" class="img-responsive" alt="">
             </div>
             
-            
-            <div class = aboutMe>
+            <div class="col-lg-6 mt-4" id= "aboutright">
+                
                 <p>
-                    Find me on GitHub <b><a href="https://github.com/jmg577">@jmg577</a></b>.
-                    <br>
-                    To reach me, email me  <b><a href="mailto:grantjahmarry@gmail.com?Subject=Hello">@jmg577@scarletmail.rutgers.edu</a></b>.
-                     <br>
-                     <br>
-                    <br>
-                   
-                    
-                   
-                    <b><a href="aboutMe.htm" >About Me</a></b>.
-                    
-                </p>
-                 
-            </div>
-            
-        </div>
-    </div>
-    
+                    Find me on GitHub <a href="https://github.com/jmg577">@jmg577</a>.<br> 
+                    To reach me, email me <a href= "mailto: grantjahmarry@gmail.com">@grantjahmarry@gmail.com</a>. 
+<br>
+<br>
 
-</body>
-    
-    
-<footer>
-        <a href="https://www.linkedin.com/in/jahmarry-grant-9b70b4173/"><img src="img/linkedin.ico" alt="LinkedIn"></a>
-        
-        <a href="https://github.com/jmg577"><img src="img/github.ico" alt="GitHub"></a>
-        
-        <a href="mailto:grantjahmarry@gmail.com?Subject=Hello"><img src="img/mail.ico" alt="Mail"></a>
-    
+                    <a href="aboutme.htm">About Me</a>.
+</p>
+            </div>
+        </div>
+      </div>
+</div>
+
+      
+      
+<footer class="footer">
+ <div class="container text-center">
+    <a href="https://github.com/jmg577"><i class="fa fa-github"></i></a>
+    <a href="https://www.linkedin.com/in/jahmarry-grant-9b70b4173/"><i class="fa fa-linkedin"></i></a>
+    <a href="mailto: grantjahmarry@gmail.com"><i class="fa fa-envelope"></i></a>
 </footer>
     
     
-    
-<script src="https://code.jquery.com/jquery-3.1.0.js"></script>
-    
-<script>
-    $(function(){
 
-    $(".grid").hide()
-	.delay(800)
-	.fadeIn();
-        
-    $(".myPhoto").hide()
-        .delay(800)
-        .fadeIn();
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     
-    $(".aboutMe").hide()
+    
+    
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script>
+    $(document).ready(function (){
+      $(".jumbotron")
+        .hide()
+        .slideDown(1500);
+      $("p").hide()
         .delay(1300)
         .toggle("right");
-        
-    $("footer img")
+      $("footer")
         .hide()
-	.delay(1700)
-	.fadeIn();
-	
-
-        
-});
+        .delay(1000)
+        .fadeIn(1000);
+    });
+  </script>
     
-    
-    </script>
-
-
-
-
-
+  </body>
+      
 </html>
